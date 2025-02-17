@@ -1,0 +1,22 @@
+{
+    "users": [
+      { "id": "1", "name": "Alice", "posts": 7, "comments": 15 },
+      { "id": "2", "name": "Bob", "posts": 4, "comments": 6 },
+      { "id": "3", "name": "Charlie", "posts": 5, "comments": 10 },
+      { "id": "4", "name": "Diana", "posts": 8, "comments": 4 },
+      { "id": "5", "name": "Eve", "posts": 2, "comments": 1 }
+    ],
+    "posts": [
+      { "id": "201", "title": "Advanced Angular", "authorId": "1", "comments": 6, "date": "2024-02-20" },
+      { "id": "202", "title": "RxJS Best Practices", "authorId": "2", "comments": 5, "date": "2024-02-21" },
+      { "id": "203", "title": "NgRx State Management", "authorId": "3", "comments": 8, "date": "2024-02-22" },
+      { "id": "204", "title": "CSS Tricks for Angular", "authorId": "4", "comments": 2, "date": "2024-02-23" }
+    ],
+    "comments": [
+      { "id": "2001", "text": "This was very helpful!", "userId": "2", "postId": "201" },
+      { "id": "2002", "text": "I love state management!", "userId": "3", "postId": "203" },
+      { "id": "2003", "text": "Great explanation!", "userId": "1", "postId": "202" },
+      { "id": "2004", "text": "CSS in Angular is tricky", "userId": "4", "postId": "204" }
+    ]
+  }
+  
